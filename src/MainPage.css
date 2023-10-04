@@ -1,12 +1,13 @@
 body{
     color: lightgrey;
-    background-color: #18111c;
+    background-color: #161517;
 
     font-family: "Lucida Sans", sans-serif;
 }
 
 #welcomeText{
-    background-color: midnightblue;
+    background-color: #301f57;
+    padding:25px;
 }
 
 .flexbox-container{
@@ -15,7 +16,8 @@ body{
 }
 
 #menu{
-    background-color: black;
+    background-color: #464154;
+    padding-left: 5px;
     padding-right: 20px;
     margin-right: 30px;
 }
