@@ -1,0 +1,84 @@
+body{
+    color: lightgrey;
+    background-color: #161517;
+
+    font-family: "Lucida Sans", sans-serif;
+}
+
+#header{
+    background-color: #301f57;
+    padding:25px;
+}
+
+#pageContainer{
+    display: flex;
+}
+
+#menu{
+    background-color: #464154;
+    padding-left: 5px;
+    padding-right: 20px;
+    margin-right: 30px;
+}
+
+a{
+    color: lightgrey;
+}
+
+#characterList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#npcList{
+    display: flex;
+}
+
+.character-panel{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.character-image{
+    border: white solid;
+
+    height: 200px;
+    width: 200px;
+}
+
+#cord{
+    background-image: url("Characters/CordPhoto.jpg");
+    background-size: cover;
+}
+
+#finnegan{
+    background-image: url("Characters/FinneganPhoto.jpg");
+    background-size: cover;
+}
+
+#grimalkin{
+    background-image: url("Characters/GrimalkinPhoto.jpg");
+    background-size: cover;
+}
+
+#jackson{
+    background-image: url("Characters/JacksonPhoto.png");
+    background-size: cover;
+}
+
+#shiloh{
+    background-image: url("Characters/ShilohPhoto.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#sveng{
+    background-image: url("Characters/SvengPhoto.png");
+    background-size: cover
+}
+
+#gath{
+    background-image: url("Characters/GathPhoto.jpg");
+    background-size: cover;
+    background-position: center;
+}
