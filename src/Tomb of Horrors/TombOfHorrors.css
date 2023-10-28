@@ -1,0 +1,108 @@
+body{
+    color: lightgrey;
+    background-color: #161517;
+
+    font-family: "Lucida Sans", sans-serif;
+}
+
+#header{
+    background-color: #301f57;
+    padding:25px;
+}
+
+#pageContainer{
+    display: flex;
+}
+
+#menu{
+    background-color: #464154;
+    padding-left: 5px;
+    padding-right: 20px;
+    margin-right: 30px;
+}
+
+a{
+    color: lightgrey;
+}
+
+#characterList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#npcList{
+    display: flex;
+}
+
+.character-panel{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.character-image{
+    border: white solid;
+
+    height: 200px;
+    width: 200px;
+}
+
+#ackley{
+    background-image: url("Characters/AckleyPhoto.jpg");
+    background-size: cover;
+}
+
+#arthur{
+    background-image: url("Characters/ArtiePhoto.png");
+    background-size: cover;
+}
+
+#schklormscht{
+    background-image: url("Characters/SchklormschtPhoto.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#chocula{
+    background-image: url("Characters/ChoculaPhoto.webp");
+    background-size: cover;
+}
+
+#edward{
+    background-image: url("Characters/EdwardPhoto.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#draven{
+    background-image: url("Characters/DravenPhoto.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#isadorae{
+    background-image: url("Characters/IsadoraePhoto.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#bjorn{
+    background-image: url("Characters/BjornPhoto.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#scales{
+    background-image: url("Characters/ScalesPhoto.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#acererak{
+    background-image: url("Characters/AcererakPhoto.png");
+    background-size: cover;
+}
+
+#rainer{
+    background-image: url("Characters/RainerPhoto.webp");
+    background-size: cover;
+}
